@@ -1,0 +1,16 @@
+{
+  "name": "learning-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha 20/day-20.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
