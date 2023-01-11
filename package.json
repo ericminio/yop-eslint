@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "mocha 20/day-20.spec.js"
+    "test": "mocha 20/day-20.spec.js",
+    "lint": "eslint --config ./.eslintrc.json demo/"
   },
   "keywords": [],
   "author": "",

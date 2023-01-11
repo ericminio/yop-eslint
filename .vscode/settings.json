@@ -4,5 +4,8 @@
     },
     "eslint.validate": [
         "javascript"
-    ]
+    ],
+    "eslint.options": {
+        "overrideConfigFile": "./.eslintrc.json"
+    }
 }
