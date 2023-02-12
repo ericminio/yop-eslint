@@ -5,13 +5,16 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha 20/day-20.spec.js",
-    "lint": "eslint --config ./.eslintrc.json demo/"
+    "lint": "eslint --config ./.eslintrc.json demo/",
+    "prettier": "prettier --write demo"
   },
   "keywords": [],
   "author": "",
   "type": "module",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.31.0"
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "2.8.4"
   }
 }
